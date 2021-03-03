@@ -1,5 +1,19 @@
 # python_class
 
+- 3/3
+
+```
+temp = reversed([1,2,3,4,5,6])
+
+for i in temp:
+  print("첫번쨰 반복문 : {}".format(i))
+
+for i in temp:
+  print("두번쨰 반복문 : {}".format(i))
+ ```
+  
+
+
 - 2/26
 
 - 집합
