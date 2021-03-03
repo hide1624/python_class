@@ -4,16 +4,58 @@
 
 ```
 temp = reversed([1,2,3,4,5,6])
+numbers = [1,2,3,4,5,6]
 
-for i in temp:
+for i in reversed(numbers):
   print("첫번쨰 반복문 : {}".format(i))
 
-for i in temp:
+for i in reversed(numbers):
   print("두번쨰 반복문 : {}".format(i))
  ```
-  
+ ```def search_list(a, x):
+  for i in range(len(a)):
+    if x == a[i]:
+      return i
+  return -1
 
+v = [17,92,18,33,58,7,33,42]
+print(search_list(v,18))
+```
+```def find_min_idx(a):
+  n = len(a)
+  min_idx = 0
+  for i in range(1,n):
+    if a[i] < a[min_idx]:
+      min_idx = i
+    return min_idx
 
+def sel_sort(a):
+  result = []
+  while a:
+    min_idx = find_min_idx(a)
+    value = a.pop(min_idx)
+    result.append(value)
+  return result
+d = [2,4,5,1,3]
+print(sel_sort(d))
+```
+```
+def sel_sort(a):
+  n=len(a)
+  for i in range(0, n-1):
+    min_idx = i
+    for j in range(i+1, n):
+      if a[j] < a[min_idx]:
+        min_idx = j
+        a[i], a[min_idx] = a[min_idx], a[i]
+
+d = [2,4,5,1,3]
+sel_sort(d)
+print(d)
+```
+
+ 
+ 
 - 2/26
 
 - 집합
