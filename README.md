@@ -14,6 +14,7 @@ nums = [1,2,3,4,5,6,7]
 print("max:",max(nums))
 print("min:",min(nums))
 ```
+- lang1 lang2 합치기
 ```
 lang1 = ["C","C++","JAVA"]
 lang2 = ["Python","Go","C#"]
