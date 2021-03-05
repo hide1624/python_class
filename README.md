@@ -21,7 +21,7 @@ lang2 = ["Python","Go","C#"]
 langs = lang1 + lang2
 print(langs)
 ```
-- 뒤에 추가하고 2번쨰에 추가하고 점점뺴기
+- 뒤에 추가하고 2번쨰에 추가하고 4번쨰꺼 뺴고 3,4번쨰꺼도 빼기
 ```
 movie_rank = ["닥터 스트레인지","스플릿","럭키"]
 movie_rank.append("배트맨")
