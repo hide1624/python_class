@@ -4,12 +4,12 @@
 
 
 
-
-
-
-
-
-
+```
+lang1 = ["C","C++","JAVA"]
+lang2 = ["Python","Go","C#"]
+langs = lang1 + lang2
+print(langs)
+```
 ```
 movie_rank = ["닥터 스트레인지","스플릿","럭키"]
 movie_rank.append("배트맨")
