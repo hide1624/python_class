@@ -4,7 +4,7 @@
 
 
 
-- 
+- 평균구하기
 ```
 num = [1,2,3,4,5]
 print(sum(num)/len(num))
