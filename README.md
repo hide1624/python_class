@@ -8,7 +8,7 @@
 nums = [1,2,3,4,5]
 print(sum(nums))
 ```
-- 최대값 
+- 최대값,최소값
 ```
 nums = [1,2,3,4,5,6,7]
 print("max:",max(nums))
