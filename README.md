@@ -3,12 +3,20 @@
 - 3/8
 
 
+- 스파이 뺴고 숫자만 
+```
+list_input_a = ["52","273","32","스파이","103"]
+list_a=[]
 
+for i in list_input_a:
+  try:
+    float(i)
+    list_a.append(i)
+  except:
+    pass
 
-
-
-
-
+print(list_a)
+```
 - 원의 반지름,둘레,넓이
 ```
 user_input_a = input("정수입력>")
