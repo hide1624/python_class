@@ -6,7 +6,7 @@
 
 
 
-- 뒤에4자리만 
+- 뒤에4자리만 출력
 ```
 license_plate = "24가 2210"
 print(license_plate[-4:])
