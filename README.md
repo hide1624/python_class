@@ -12,8 +12,8 @@ num = 100
 result = str(num)
 print(result,type(result))
 ```
-```
 - 720을 정수로 변환
+```
 num_str = "720"
 print(int(num_str))
 ```
