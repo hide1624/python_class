@@ -3,12 +3,11 @@
 - 3/10
 
 
-
-
-
-
-
-
+- python에서 p t만 뺴기
+```
+lang = 'python'
+print(lang[0],lang[2])
+```
 - 15.79를 실수로 
 ```
 data = "15.79"
