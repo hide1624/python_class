@@ -11,7 +11,7 @@
 license_plate = "24가 2210"
 print(license_plate[-4:])
 ```
-- python에서 p t만 뺴기
+- python에서 p t만 출력
 ```
 lang = 'python'
 print(lang[0],lang[2])
