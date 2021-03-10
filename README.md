@@ -3,6 +3,14 @@
 - 3/10
 
 
+
+
+
+- 뒤에4자리만 
+```
+license_plate = "24가 2210"
+print(license_plate[-4:])
+```
 - python에서 p t만 뺴기
 ```
 lang = 'python'
