@@ -8,6 +8,11 @@
 url = "http://sharebook.kr"
 print(url[-2:])
 ```
+```
+url = "http://sharebook.kr"
+url_split = url.split('.')
+print(url_split[-1])
+```
 - 전화번호에 - 자 뺴기
 ```
 phone_number = "010-1111-2222"
