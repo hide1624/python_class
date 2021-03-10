@@ -2,6 +2,12 @@
 
 - 3/10
 
+
+- 주소에서 kr만 뺴기
+```
+url = "http://sharebook.kr"
+print(url[-2:])
+```
 - 전화번호에 - 자 뺴기
 ```
 phone_number = "010-1111-2222"
