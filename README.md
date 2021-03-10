@@ -2,6 +2,16 @@
 
 - 3/10
 
+
+
+
+
+- 15.79를 실수로 
+```
+data = "15.79"
+data = float(data)
+print(data, type(data))
+```
 - 100을 문자열로 변환
 ```
 num = 100
