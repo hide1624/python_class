@@ -10,6 +10,30 @@
 
 
 
+- rstrip 메서드 오른쪽에 공백이 있을떄 이를 제거해보기
+```
+data = "039490    "
+data = data.rstrip()
+print(data)
+```
+- split 메서드 문자열이 있을떄 btc 와 krw 로 나눔
+```
+ticker = "btc_krw"
+ticker = ticker.split("_")
+print(ticker[0])
+ticker = "btc_krw"
+ticker = ticker.split("_")
+print(ticker[1])
+```
+- split 메서드 공백을 기준으로 문자열 나눔
+```
+a = "hello world"
+a = a.split()
+print(a[0])
+a = "hello world"
+a = a.split()
+print(a[1])
+```
 - capitalize 메서드.앞 단어만 대문자로 변경
 ```
 a = "hello"
