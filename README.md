@@ -10,13 +10,12 @@
 
 
 
-
-
-
-
-
-
-
+- capitalize 메서드.앞 단어만 대문자로 변경
+```
+a = "hello"
+a = a.capitalize()
+print(a)
+```
 - 대문자 문자열을 소문자로 변경
 ```
 ticker = "BTC_KRW"
