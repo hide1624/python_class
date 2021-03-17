@@ -2,6 +2,34 @@
 
 
 
+
+- 3/17
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 대문자 문자열을 소문자로 변경
+```
+ticker = "BTC_KRW"
+ticker = ticker.lower()
+print(ticker)
+```
+- 소문자 문자열을 대문자로 변경
+```
+ticker = "btc_krw"
+ticker = ticker.upper()
+print(ticker)
+```
+
 - 3/12
 
 - 좌우의 공백이 있을떄 이를 제거하기
