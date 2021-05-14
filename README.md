@@ -2,6 +2,25 @@
 
 
 
+- 5/14
+
+- 파이선 while for 문 1부터 50까지의 
+		int num = 1;
+		int sum = 0;
+		
+		while(num <= 50) {
+			sum += num;
+			num++;
+		}
+		System.out.println("1부터 50까지의 합은" + sum + "입니다.");
+		
+		int i;
+		int hap;
+		for(i = 1, hap = 0; i <= 50; i++) {
+			hap += i;
+		}
+		System.out.println("1부터 50까지의 합은" + hap + "입니다.");
+
 
 - 3/17
 
